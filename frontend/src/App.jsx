@@ -1,11 +1,11 @@
 import './App.css'
-import CharList from './components/CharList.jsx'
+import { Outlet } from '@tanstack/react-router'
 
 function App() {
 
   return (
     <>
-      <CharList />
+      <Outlet />
     </>
   )
 }

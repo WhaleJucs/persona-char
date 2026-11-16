@@ -1,12 +1,12 @@
 [
-  { "name": "Makoto", "persona": "Orpheus", "arcano": "Fool" },
-  { "name": "Yukari", "persona": "Izanagi", "arcano": "Lovers" },
-  { "name": "Junpei", "persona": "Hermes", "arcano": "Magician" },
-  { "name": "Akihiko", "persona": "Polydeuces", "arcano": "Chariot" },
-  { "name": "Fuuka", "persona": "Jiraiya", "arcano": "Priestess" },
-  { "name": "Aigis", "persona": "Aigis", "arcano": "Aeon" },
-  { "name": "Ken", "persona": "Seth", "arcano": "Emperor" },
-  { "name": "Mitsuru", "persona": "Penthesilea", "arcano": "Empress" },
-  { "name": "Shinjiro", "persona": "Anubis", "arcano": "Death" },
-  { "name": "Ryoji", "persona": "Raven", "arcano": "Judgement" }
+  { "name": "Makoto Yuki", "persona": "Orpheus", "arcano": "Fool" },
+  { "name": "Yukari Takeba", "persona": "Io", "arcano": "Lovers" },
+  { "name": "Junpei Iori", "persona": "Hermes", "arcano": "Magician" },
+  { "name": "Akihiko Sanada", "persona": "Polydeuces", "arcano": "Emperor" },
+  { "name": "Fuuka Yamagishi", "persona": "Lucia", "arcano": "Priestess" },
+  { "name": "Aigis", "persona": "Palladion", "arcano": "Chariot" },
+  { "name": "Ken Amada", "persona": "Nemesis", "arcano": "Justice" },
+  { "name": "Mitsuru Kirijo", "persona": "Penthesilea", "arcano": "Empress" },
+  { "name": "Shinjiro Aragaki", "persona": "Castor", "arcano": "Hierophant" },
+  { "name": "Ryoji Mochizuki", "persona": "Thanatos", "arcano": "Death" }
 ]
