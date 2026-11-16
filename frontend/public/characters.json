@@ -1,0 +1,12 @@
+[
+  { "name": "Makoto", "persona": "Orpheus", "arcano": "Fool" },
+  { "name": "Yukari", "persona": "Izanagi", "arcano": "Lovers" },
+  { "name": "Junpei", "persona": "Hermes", "arcano": "Magician" },
+  { "name": "Akihiko", "persona": "Polydeuces", "arcano": "Chariot" },
+  { "name": "Fuuka", "persona": "Jiraiya", "arcano": "Priestess" },
+  { "name": "Aigis", "persona": "Aigis", "arcano": "Aeon" },
+  { "name": "Ken", "persona": "Seth", "arcano": "Emperor" },
+  { "name": "Mitsuru", "persona": "Penthesilea", "arcano": "Empress" },
+  { "name": "Shinjiro", "persona": "Anubis", "arcano": "Death" },
+  { "name": "Ryoji", "persona": "Raven", "arcano": "Judgement" }
+]
