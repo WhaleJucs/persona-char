@@ -1,6 +1,6 @@
-import { useState } from 'react'
 import getCharacters from '../services/characterService.js'
 import { useQuery } from '@tanstack/react-query'
+import { useParams, Link } from '@tanstack/react-router'
 
 const CharList = () => {
 
@@ -25,20 +25,18 @@ const CharList = () => {
     //   fetchCharacters()
     // }, [])
 
-    const [selectedCharacter, setSelectedCharacter] = useState(null)
+    const { slug } = useParams({ strict: false})
 
     const query = useQuery({
         queryKey: ['characters'],
         queryFn: getCharacters,
     })
 
-  const characters = query.data ?? []
-  const loading = query.isLoading
-  const error = query.isError ? 'Não foi possível carregar os personagens.' : null
+    const characters = query.data ?? []
+    const loading = query.isLoading
+    const error = query.isError ? 'Não foi possível carregar os personagens.' : null
 
-    const handleCharacterClick = (character) => {
-        setSelectedCharacter(character)
-    }
+    const selectedCharacter = characters.find((character) => character.slug === slug)
 
   return (
     <div>
@@ -48,11 +46,12 @@ const CharList = () => {
 
         {!loading && !error && characters.length > 0 && (
           <>
-            <h1>Personagens</h1>
+            <Link to="/"><h1>Personagens</h1></Link>
             <ul>{characters.map((character) => (
                 <li key={ character.name}>
-                  <button className={character.name === selectedCharacter?.name ? 'selected' : ''}  
-                          onClick={() => handleCharacterClick(character)}>{character.name}</button>
+                  <Link className={character.name === selectedCharacter?.name ? 'selected' : ''}
+                        to={`/personagens/${character.slug}`}>{character.name}
+                  </Link>
                   </li>
               ))}
             </ul>
